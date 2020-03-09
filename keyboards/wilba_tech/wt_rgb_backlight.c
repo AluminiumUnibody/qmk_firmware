@@ -14,6 +14,8 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
+#if RGB_BACKLIGHT_ENABLED
+
 #if defined(RGB_BACKLIGHT_ZEAL60) || \
     defined(RGB_BACKLIGHT_ZEAL65) || \
     defined(RGB_BACKLIGHT_M60_A) || \
@@ -2692,3 +2694,4 @@ void backlight_debug_led( bool state )
 #endif // defined(RGB_DEBUGGING_ONLY)
 
 
+#endif // RGB_BACKLIGHT_ENABLED
